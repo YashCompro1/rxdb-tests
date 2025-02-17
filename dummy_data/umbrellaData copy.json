@@ -1,0 +1,25 @@
+[
+    {
+        "umbrellaCode": "product_with_test",
+        "data": {
+            "version": 1,
+            "family-codes": [],
+            "products": [
+                {
+                    "analytics": {
+                        "teacher": false
+                    },
+                    "expiryConfig": {
+                        "thirtyDayWarning": false,
+                        "isExpired": false
+                    }
+                }
+            ],
+            "target": {
+                "role": "all"
+            },
+            "path": "https://asgard-thor-content.comprodls.com/stage/final/bundles/product_with_test/assets",
+            "path-common": "https://asgard-thor-content.comprodls.com/stage/final/bundles/product_with_test/assets/common"
+        }
+    }
+]

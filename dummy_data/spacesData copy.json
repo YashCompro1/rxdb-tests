@@ -1,0 +1,371 @@
+{
+    "uid": "6adca7b76d0c436e96748c5008f3d361",
+    "spaces": {
+        "entities": [
+            {
+                "dls_org_id": "mqa-sierra-thor",
+                "version": 1,
+                "dls_teacher_id": "0f9e0ea7-12f2-44be-9a3a-f3e9030e597d",
+                "space_role": "teacher",
+                "created": 1728977185463,
+                "space_title": "MQA Sierra School",
+                "space_type": "institutional",
+                "dls_account_id": "cup1",
+                "ext_user_id": "6adca7b76d0c436e96748c5008f3d361",
+                "space_key": "org_mqa-sierra-thor",
+                "modified": 1728977185463,
+                "space_org_context": "institution",
+                "user_id": "0f9e0ea7-12f2-44be-9a3a-f3e9030e597d",
+                "classes": {
+                    "entities": [
+                        {
+                            "uuid": "1441ba1b-d6b3-4505-9fde-cd49ec2ce7e4",
+                            "enrollment": {
+                                "classrole": "creator",
+                                "role": "teacher",
+                                "created": 1733826133532,
+                                "modified": 1733826133532
+                            },
+                            "classid": "1441ba1b-d6b3-4505-9fde-cd49ec2ce7e4",
+                            "class_code": "LDra-3HmC",
+                            "title": "asdasdasdasdasd",
+                            "class": {
+                                "startdate": 1733826129025,
+                                "enddate": 1765304999999,
+                                "instructor": {
+                                    "name": "test test",
+                                    "last_name": "test",
+                                    "first_name": "test",
+                                    "uuid": "0f9e0ea7-12f2-44be-9a3a-f3e9030e597d",
+                                    "email": "testteacher123@mailsac.com",
+                                    "username": "6adca7b76d0c436e96748c5008f3d361--ACCOUNT"
+                                }
+                            },
+                            "created": 1733826133411,
+                            "provision_method": "API",
+                            "class.settings.active": true,
+                            "limits": {
+                                "los": 4500
+                            },
+                            "assignedPathCount": 0,
+                            "products": []
+                        },
+                        {
+                            "uuid": "b7a35920-1b59-454b-95a9-94ae54426e44",
+                            "enrollment": {
+                                "classrole": "creator",
+                                "role": "teacher",
+                                "created": 1728977238843,
+                                "modified": 1728977238843
+                            },
+                            "classid": "b7a35920-1b59-454b-95a9-94ae54426e44",
+                            "class_code": "Cn2b-3Vdf",
+                            "title": "class 1",
+                            "class": {
+                                "startdate": 1728977235792,
+                                "enddate": 1760466599999,
+                                "instructor": {
+                                    "name": "test test",
+                                    "last_name": "test",
+                                    "first_name": "test",
+                                    "uuid": "0f9e0ea7-12f2-44be-9a3a-f3e9030e597d",
+                                    "email": "testteacher123@mailsac.com",
+                                    "username": "6adca7b76d0c436e96748c5008f3d361--ACCOUNT"
+                                }
+                            },
+                            "created": 1728977238740,
+                            "provision_method": "API",
+                            "class.settings.active": true,
+                            "limits": {
+                                "los": 4500
+                            },
+                            "ext_data": {
+                                "bundles-order": [
+                                    "cqa_blue_test_umbrella_10_oct-2024"
+                                ]
+                            },
+                            "assignedPathCount": 0,
+                            "products": [
+                                {
+                                    "registrationtitle": "cqa_blue_test_pe_10_oct-2024 title",
+                                    "title": "Practice Extra",
+                                    "status": "un-published",
+                                    "currentversion": 1,
+                                    "productcode": "cqa_blue_test_pe_10_oct-2024",
+                                    "producttype": "courseware",
+                                    "supertype": "content",
+                                    "source": {
+                                        "type": "s3",
+                                        "s3": {
+                                            "bucket": "dls-asgard-thor-builder-content"
+                                        }
+                                    },
+                                    "schema": 1,
+                                    "author": "Cambridge University Press",
+                                    "description": null,
+                                    "ext_product_id": "cqa_blue_test_pe_10_oct-2024",
+                                    "short-description": null,
+                                    "thumbnaillarge": "9781408855713.jpg",
+                                    "versions": {
+                                        "content-items": 1
+                                    },
+                                    "context": "standard",
+                                    "thumbnailsmall": "9781408855713.jpg",
+                                    "model": {
+                                        "media_img1": "9781408855713.jpg",
+                                        "year": "2018",
+                                        "app-hide-activity-sequencing": "false",
+                                        "segment": "primary",
+                                        "app-hide-unit-number": "false",
+                                        "style": "primary-type-1",
+                                        "discipline": "Adult",
+                                        "program": "General English",
+                                        "type": "cup-courseware"
+                                    },
+                                    "bundle-codes": [
+                                        "cqa_blue_test_umbrella_10_oct-2024"
+                                    ],
+                                    "paths": {
+                                        "public-assets": "https://asgard-thor-content.comprodls.com/cup1/products/cqa_blue_test_pe_10_oct-2024/1/assets",
+                                        "secured-assets": "https://s3.amazonaws.com/dls-asgard-thor-product-versions-1/cup1/products/cqa_blue_test_pe_10_oct-2024/1/assets",
+                                        "public-submissions": "https://asgard-thor-content.comprodls.com/submissions/cup1/cqa_blue_test_pe_10_oct-2024",
+                                        "secured-submissions": "https://dls-asgard-thor-user-data.s3.amazonaws.com/submissions/cup1/cqa_blue_test_pe_10_oct-2024",
+                                        "json-flattened": "https://asgard-thor-content.comprodls.com/cup1/products/cqa_blue_test_pe_10_oct-2024/1/meta/definition_flat.json"
+                                    }
+                                }
+                            ],
+                            "bundles": {
+                                "cqa_blue_test_umbrella_10_oct-2024": {
+                                    "version": 1,
+                                    "image": "9781408855713.jpg",
+                                    "family-codes": [],
+                                    "products": [
+                                        {
+                                            "analytics": {
+                                                "student": true,
+                                                "teacher": false
+                                            },
+                                            "assignability": {
+                                                "enabled": true
+                                            },
+                                            "activity": {},
+                                            "meta": {
+                                                "los": 37,
+                                                "visibility": "true",
+                                                "not-published": false,
+                                                "icon": "nemo-font nemo-evolve2-tick",
+                                                "title": "Practice Extra",
+                                                "category": {
+                                                    "value": "None ",
+                                                    "id": "none"
+                                                },
+                                                "visibility-options": {
+                                                    "hide-teacher-dashboard": false,
+                                                    "hide-learning-path": false,
+                                                    "hide-learner-dashboard": false,
+                                                    "hide-ebooks": false,
+                                                    "hide-data-views": false,
+                                                    "hide-assignments": false
+                                                },
+                                                "learning-path": "2"
+                                            },
+                                            "segment": {
+                                                "style": "primary-type-1",
+                                                "segment": "primary"
+                                            },
+                                            "results-display": {
+                                                "score-detail-format": "none",
+                                                "type": "rewards",
+                                                "score-format": "marks_out_of",
+                                                "hide-non-started-items": false
+                                            },
+                                            "classes": {
+                                                "enabled": true
+                                            },
+                                            "groups": {
+                                                "enabled": false
+                                            },
+                                            "activation": {
+                                                "gated": {
+                                                    "student": {
+                                                        "assignments-only": false
+                                                    }
+                                                },
+                                                "free": {
+                                                    "teacher": {}
+                                                },
+                                                "prior-to-activitation-rules": {
+                                                    "visibility-v2": "disabled"
+                                                }
+                                            },
+                                            "ext-product": {
+                                                "type": "OLP",
+                                                "isbn": "cqa_blue_test_pe_10_oct-2024"
+                                            },
+                                            "dls-product": {
+                                                "type": "courseware",
+                                                "code": "cqa_blue_test_pe_10_oct-2024"
+                                            },
+                                            "learning-path": {
+                                                "version": "2"
+                                            }
+                                        },
+                                        {
+                                            "analytics": {
+                                                "teacher": false
+                                            },
+                                            "activation": {
+                                                "gated": {
+                                                    "student": {}
+                                                },
+                                                "free": {
+                                                    "teacher": {}
+                                                },
+                                                "prior-to-activitation-rules": {
+                                                    "visibility": "disabled"
+                                                }
+                                            },
+                                            "meta": {
+                                                "visibility": "true",
+                                                "very-short-description": "Book1- with 100 units CMS",
+                                                "not-published": false,
+                                                "activation-instructions": "ebook 100 unit book no PE AI",
+                                                "icon": "nemo-font nemo-evolve2-tick",
+                                                "title": "Book1- with 100 units",
+                                                "cup-pplus-component": false,
+                                                "short-description": "Book1- with 100 units LMS",
+                                                "download-description": "ebook 100 unit book no PE DI"
+                                            },
+                                            "ext-product": {
+                                                "type": "imgbook",
+                                                "isbn": "cqa_blue_test_ebook1_10_oct-2024"
+                                            },
+                                            "dls-product": {
+                                                "type": "imgbook",
+                                                "code": "cqa_blue_test_ebook1_10_oct-2024"
+                                            },
+                                            "classes": {
+                                                "enabled": false
+                                            }
+                                        }
+                                    ],
+                                    "target": {
+                                        "role": "all"
+                                    },
+                                    "visibility": false,
+                                    "bundle-code": "cqa_blue_test_umbrella_10_oct-2024",
+                                    "dls_account_id": "cup1",
+                                    "modified": 1728975936276,
+                                    "title": "cqa_blue_test_umbrella_10_oct-2024",
+                                    "attribs": {
+                                        "self-study-product": false,
+                                        "teacher-training-type": "teaching-with",
+                                        "cover-product-code": "cqa_blue_test_ebook1_10_oct-2024",
+                                        "cover-type": "upload",
+                                        "bundle-version": "2",
+                                        "country-visibility": true
+                                    },
+                                    "path": "https://asgard-thor-content.comprodls.com/stage/final/bundles/cqa_blue_test_umbrella_10_oct-2024/assets",
+                                    "path-common": "https://asgard-thor-content.comprodls.com/stage/final/bundles/cqa_blue_test_umbrella_10_oct-2024/assets/common"
+                                }
+                            }
+                        }
+                    ],
+                    "count": 2,
+                    "server": {
+                        "request_id": "Self=1-6789f713-142e8a426f72200750e8db80;Root=1-6789f713-67bfd2a731bcf0e011a4968a"
+                    }
+                },
+                "schoolEntitlements": {
+                    "entities": [
+                        {
+                            "gsi_2_sk": "org-entitlement-product",
+                            "version": 1,
+                            "gsi_2_pk": "PRODUCT-ad3juntestumbrella1tg1#cup1",
+                            "bundle-codes": [
+                                "ad3juntestumbrella1"
+                            ],
+                            "created_by": "ext_system",
+                            "status": "active",
+                            "created": 1718948906525,
+                            "productcode": "ad3juntestumbrella1tg1",
+                            "expired": false,
+                            "account": "cup1",
+                            "category": "org-entitlement-product",
+                            "orgid": "mqa-sierra-thor",
+                            "sk": "ENTITLEMENT-PRODUCT-ad3juntestumbrella1tg1",
+                            "pk": "ORG-cup1#mqa-sierra-thor",
+                            "modified": 1731482587354
+                        },
+                        {
+                            "gsi_2_sk": "org-entitlement-product",
+                            "version": 1,
+                            "gsi_2_pk": "PRODUCT-cqabookwithpe#cup1",
+                            "bundle-codes": [
+                                "cqalotest"
+                            ],
+                            "created_by": "ext_system",
+                            "status": "active",
+                            "created": 1731578759938,
+                            "productcode": "cqabookwithpe",
+                            "expired": true,
+                            "account": "cup1",
+                            "category": "org-entitlement-product",
+                            "orgid": "mqa-sierra-thor",
+                            "sk": "ENTITLEMENT-PRODUCT-cqabookwithpe",
+                            "pk": "ORG-cup1#mqa-sierra-thor",
+                            "modified": 1731578784007
+                        },
+                        {
+                            "gsi_2_sk": "org-entitlement-product",
+                            "version": 1,
+                            "gsi_2_pk": "PRODUCT-nonmqa_tg_25march2021_1#cup1",
+                            "bundle-codes": [
+                                "nonmqa_umbrella_25march2021_1"
+                            ],
+                            "created_by": "ext_system",
+                            "status": "active",
+                            "created": 1731490951268,
+                            "productcode": "nonmqa_tg_25march2021_1",
+                            "expired": false,
+                            "orgid": "mqa-sierra-thor",
+                            "category": "org-entitlement-product",
+                            "account": "cup1",
+                            "sk": "ENTITLEMENT-PRODUCT-nonmqa_tg_25march2021_1",
+                            "pk": "ORG-cup1#mqa-sierra-thor",
+                            "modified": 1731490951268
+                        },
+                        {
+                            "gsi_2_sk": "org-entitlement-product",
+                            "version": 1,
+                            "gsi_2_pk": "PRODUCT-presentation_plus_test_pe_3#cup1",
+                            "bundle-codes": [
+                                "presentation_plus_test_umb_product_2_june_1"
+                            ],
+                            "created_by": "ext_system",
+                            "status": "active",
+                            "created": 1731395060993,
+                            "productcode": "presentation_plus_test_pe_3",
+                            "expired": false,
+                            "account": "cup1",
+                            "category": "org-entitlement-product",
+                            "orgid": "mqa-sierra-thor",
+                            "sk": "ENTITLEMENT-PRODUCT-presentation_plus_test_pe_3",
+                            "pk": "ORG-cup1#mqa-sierra-thor",
+                            "modified": 1731407114481
+                        }
+                    ],
+                    "count": 4
+                }
+            }
+        ],
+        "count": 1,
+        "server": {
+            "request_id": "Self=1-6789f713-1c66273245da8a1312ed2ab5;Root=1-6789f713-67bfd2a731bcf0e011a4968a"
+        },
+        "totalFetchedClasses": {
+            "count": 2,
+            "limitError": false
+        }
+    }
+}
