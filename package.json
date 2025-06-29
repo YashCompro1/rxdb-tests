@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "rxdb": "^16.0.0",
+    "rxdb": "12.7.16",
     "rxjs": "^7.8.1"
   }
 }

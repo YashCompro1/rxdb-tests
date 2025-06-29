@@ -1,13 +1,4 @@
 const { createRxDatabase } = require('rxdb');
-const { wrappedKeyEncryptionCryptoJsStorage } = require('rxdb/plugins/encryption-crypto-js');
-const { getRxStorageMemory } = require('rxdb/plugins/storage-memory');
-const { addRxPlugin } = require('rxdb');
-const { RxDBJsonDumpPlugin } = require('rxdb/plugins/json-dump');
-const { RxDBBackupPlugin } = require('rxdb/plugins/backup');
-const { RxDBQueryBuilderPlugin } = require('rxdb/plugins/query-builder');
-addRxPlugin(RxDBJsonDumpPlugin);
-addRxPlugin(RxDBBackupPlugin);
-addRxPlugin(RxDBQueryBuilderPlugin);
 
 const fs = require('fs');
 const filePath = './data.json';
@@ -60,11 +51,7 @@ async function _importDB() {
 async function _initDB() {
     myDatabase = await createRxDatabase({
         name: 'mydatabase',
-        storage: wrappedKeyEncryptionCryptoJsStorage({
-            storage: getRxStorageMemory()
-        }),
-        password: 'myPass12345',
-        hashFunction: _nativeSha256
+        storage: getRxStorageMemory()
     });
 }
 
